@@ -1,9 +1,9 @@
-<?php 
+<?php
 /**
-* Copyright (c) Microsoft Corporation.  All Rights Reserved.  
-* Licensed under the MIT License.  See License in the project root 
+* Copyright (c) Microsoft Corporation.  All Rights Reserved.
+* Licensed under the MIT License.  See License in the project root
 * for license information.
-* 
+*
 * Constants File
 * PHP version 7
 *
@@ -27,8 +27,8 @@ final class GraphConstants
     const SDK_VERSION = "1.0.3";
 
     // Define error constants
-    const MAX_PAGE_SIZE = 999;
-    const MAX_PAGE_SIZE_ERROR = "Page size must be less than " . self::MAX_PAGE_SIZE;
+    const MAX_PAGE_SIZE = 999; # Change the value in following line accordingly
+    const MAX_PAGE_SIZE_ERROR = "Page size must be less than 999";
     const TIMEOUT = "Timeout error";
 
     // Define error message constants
